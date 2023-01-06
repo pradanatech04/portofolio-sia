@@ -1,0 +1,150 @@
+/* css js animasi */
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+/* penutup css js animasi */
+.img-profile img{
+    height: 300px;
+width: 300px;
+/* left: 606px;
+top: 75px; */
+border-radius: 100%;
+display: block;
+margin: 50px auto auto auto;
+
+}
+
+.profile-name{
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: 'Itim';
+    font-style: normal;
+}
+
+.kolom-profil{
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+    width: 493px;
+    height: 224px;
+    /* border:1px solid black;  */
+
+}
+
+body{
+    background: white url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.satu-baris{
+    display: flex;
+}
+
+.isi-profil{
+    margin: 125px auto auto 100px;
+}
+
+.line-profile{
+    position: relative;
+width: 168px;
+height: 13px;
+margin-bottom: 10px;
+
+background: #91BAF9;
+}
+
+.all-content-profile{
+    display: flex;
+    margin: auto auto auto 180px;
+}
+
+.kolom-pendidikan {
+   display: flex;
+    
+}
+
+.kolom-tahun{
+    margin-right: 0px;
+    padding-left: 100px;
+    
+}
+
+.kolom-tahun ul{
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 541px) and (max-width: 581px) and (orientation : portrait) {
+    .letter{
+        font-size: 50px;
+     }
+ 
+     .all-content-profile{
+         display: block;
+         margin-left: -70px;
+     }       
+     .modal-body img{
+        height: 220px;
+     }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 540px) and (orientation : portrait) {
+    .letter{
+        font-size: 30px;
+     }
+ 
+     .all-content-profile{
+         display: block;
+         margin-left: -90px;
+     }       
+
+     .modal-body img{
+        height: 220px;
+     }
+}
+
+@media only screen and (min-width: 582px) and (max-width: 1080px) {
+    .letter{
+        font-size: 50px;
+     }
+ 
+     .all-content-profile{
+         display: block;
+         margin:auto auto auto auto;
+     }       
+     .modal-body img{
+        height: 220px;
+     }
+}
